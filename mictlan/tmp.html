@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+  #pageTrans { /* elcontenedor */
+    height: 490px;
+    margin: 0 auto;
+    position: relative;
+    width: 580px;
+  }
+
+  /* la navegación izquierda */
+  #selector {
+    position: absolute;
+    top: 20px;
+    width: 135px;
+    z-index: 2000;
+  }
+  #selector h5 { /* el texto "seleccionar" del ejemplo */ }
+  #navigation {
+    display: block;
+    list-style: none;
+    margin: 10px 0 0;
+    z-index: 3;
+  }
+  #navigation a {
+    border: 1px solid #FFFF;
+    box-shadow: 0 0 15px #FFF inset;
+    color: #FFF;
+    display: block;
+    font-size: 16px;
+    line-height: 45px;
+    margin: 0 0 10px;
+    padding: 0 10px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  #navigation a:hover { background: Crimson; }
+
+  /* las reglas de los paneles */
+  .content {
+    left: 180px;
+    position: absolute;
+    top: 0;
+    width: 400px;
+  }
+  .content h4 { /* el título de cada panel */ }
+  .panel {
+    -moz-transition: all 0.6s ease-in-out 0s;
+    -webkit-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    -ms-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+    background-color: #101921;
+    height: 100%;
+    margin-left: -610px;
+    position: absolute;
+    width: 580px;
+    z-index: 2;
+  }
+  .panel:target { margin-left: 0px; }
+
+</style>
+</head>
+<body>
+	<div id="pageTrans">
+
+  <!-- el contenido de cada uno de los "paneles" -->
+  <!-- el primero (el visible) es levemente distinto al resto -->
+  <div id="panel1" class="content">
+    <h4>PANEL 1</h4>
+    Panel 1
+  </div>
+
+  <!-- los otros (los ocultos)  tienen la misma estructura -->
+  <div id="panel2" class="panel">
+    <div class="content"> Panel 2 </div>
+  </div>
+  <div id="panel3" class="panel">
+    <div class="content"> Panel 3 </div>
+  </div>
+  <div id="panel4" class="panel">
+    <div class="content"> Panel 4 </div>
+  </div>
+
+  <!-- la navegación a la izquierda -->
+  <div id="selector">
+    <h5> seleccionar </h5>
+    <ul id="navigation">
+      <li><a id="link-panel1" href="#panel1"> texto 1 </a></li>
+      <li><a id="link-panel2" href="#panel2"> texto 2 </a></li>
+      <li><a id="link-about" href="#about"> texto 3 </a></li>
+      <li><a id="link-contact" href="#contact"> texto 4 </a></li>
+    </ul>
+  </div>
+
+</div>
+</body>
+</html>
