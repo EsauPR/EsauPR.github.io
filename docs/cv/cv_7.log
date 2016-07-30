@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.4.14)  18 JUL 2016 14:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.4.14)  30 JUL 2016 17:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -813,17 +813,17 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 156.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 157.
 
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 219.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 219.
  (./cv_7.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 218.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 218.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 219.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 219.
 Package rerunfilecheck Info: File `cv_7.out' has not changed.
 (rerunfilecheck)             Checksum: 7A84CF5B65E7416C00FAE6AAF01CA7D0;729.
  ) 
@@ -834,14 +834,14 @@ Here is how much of TeX's memory you used:
  15640 multiletter control sequences out of 15000+600000
  64299 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,12n,67p,770b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,13n,67p,770b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-dist/fo
 nts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lm
 ss10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/share/te
 xmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf-dist/fonts/type1/pu
 blic/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsso10.pfb><
 /usr/share/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on cv_7.pdf (2 pages, 156850 bytes).
+Output written on cv_7.pdf (2 pages, 158690 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  65 compressed objects within 1 object stream
